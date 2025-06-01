@@ -1,0 +1,115 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #0f172a;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  max-width: 1000px;
+  margin: auto;
+  padding: 2rem;
+}
+
+.titulo {
+  text-align: center;
+  color: #00d4ff;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  text-shadow: 0 0 10px #00d4ff77;
+}
+
+.filtros {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.filtros input,
+.filtros select {
+  padding: 0.5rem;
+  border-radius: 8px;
+  border: none;
+  width: 100%;
+  max-width: 300px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.card {
+  background: #1e293b;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #00000033;
+  text-align: center;
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 15px #00d4ff55;
+}
+
+.card h3 {
+  color: #ffcc00;
+  margin-bottom: 0.5rem;
+}
+
+.card p {
+  margin-bottom: 0.5rem;
+}
+
+.card button {
+  background-color: #00d4ff;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  color: #000;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.card button:hover {
+  background-color: #00b2cc;
+}
+
+.carrito {
+  background-color: #1e293b;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #00000033;
+}
+
+.carrito ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.btn-confirmar {
+  margin-top: 1rem;
+  background-color: #16a34a;
+  color: white;
+  padding: 0.7rem 1.5rem;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.btn-confirmar:hover {
+  background-color: #15803d;
+}
+
+.recomendado h2 {
+  margin-bottom: 1rem;
+  color: #7dd3fc;
+  text-shadow: 0 0 5px #7dd3fc77;
+}
